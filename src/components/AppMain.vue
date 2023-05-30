@@ -28,6 +28,7 @@
 
 <template>
   <div class="container pt-3">
+    <h1>Project list</h1>
     <div class="row">
       <div v-for="project in projects" class="col-4 pt-3">
         <ProjectCard :project="project"></ProjectCard>
@@ -37,5 +38,8 @@
 </template>
 
 <style lang="scss" scoped>
+  h1 {
+    text-align: center;
+  }
 
 </style>
