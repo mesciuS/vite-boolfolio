@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: 'About',
+    name: 'projects-index',
     data() {
         return {
 
@@ -10,7 +10,7 @@ export default {
 </script>
 <template>
     <div>
-        <h1>about</h1>
+        <h1>Index</h1>
         <router-link :to="{name: 'home'}">Go to the homepage</router-link>
     </div>
 </template>
