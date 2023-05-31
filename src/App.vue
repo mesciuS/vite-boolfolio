@@ -15,6 +15,7 @@
 </script>
 
 <template>
+  <router-view></router-view>
   <AppMain></AppMain>
 </template>
 
